@@ -1,6 +1,6 @@
 {
   "name": "react-autocomplete",
-  "version": "1.8.1",
+  "version": "1.9",
   "description": "Accessible, extensible, Autocomplete for React.js",
   "main": "./build/lib/Autocomplete.js",
   "files": [
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-autocomplete.git"
+    "url": "https://github.com/stern-shawn/react-autocomplete.git"
   },
-  "homepage": "https://github.com/reactjs/react-autocomplete",
-  "bugs": "https://github.com/reactjs/react-autocomplete/issues",
+  "homepage": "https://github.com/stern-shawn/react-autocomplete",
+  "bugs": "https://github.com/stern-shawn/react-autocomplete/issues",
   "directories": {
     "example": "examples"
   },
@@ -31,7 +31,8 @@
     "start": "SCRIPTY_PARALLEL=true scripty"
   },
   "authors": [
-    "Ryan Florence <rpflorence@gmail.com>"
+    "Ryan Florence <rpflorence@gmail.com>",
+    "Shawn Stern <stern.shawn@gmail.com"
   ],
   "license": "MIT",
   "devDependencies": {
