@@ -39,8 +39,8 @@ yarn add react-autocomplete
 
 ### AMD/UMD
 
-* Development: [https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.js](https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.js)
-* Production: [https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.min.js](https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.min.js)
+* Development: [https://unpkg.com/react-autocomplete@1.9.0/dist/react-autocomplete.js](https://unpkg.com/react-autocomplete@1.9.0/dist/react-autocomplete.js)
+* Production: [https://unpkg.com/react-autocomplete@1.9.0/dist/react-autocomplete.min.js](https://unpkg.com/react-autocomplete@1.9.0/dist/react-autocomplete.min.js)
 
 ## API
 
@@ -172,6 +172,11 @@ Default value: `false`
 
 Whether or not to automatically select the highlighted item when the
 `<input>` loses focus.
+
+#### `selectOnTab: Boolean` (optional)
+Default value: `false`
+
+Whether or not to select the highlighted item on a 'Tab' keypress
 
 #### `shouldItemRender: Function` (optional)
 Arguments: `item: Any, value: String`
